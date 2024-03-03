@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head><title> MY INFORMATION</title>
+    </head>
+    <body>
+
+    <p id="1"></p>
+    <p id="2"></p>
+    <p id="3"></p>
+    <p id="4"></p>
+    <p id="5"></p>
+    <p id="6"></p>
+    <p id="7"></p>
+    <p id="8"></p>
+    <p id="9"></p>
+    <p id="10"></p>
+    <script>
+        var x={
+            'name':'sanjay',
+            'age':'20',
+            'bloodgroup':'B+ve',
+            'nationality':'indian',
+            'religion':'hindu',
+            'education':'B.tech.IT',
+            'emailaddress':'sanjay30sandy@gmail.com',
+            'mobileno':'9047865456',
+            'address':'katchalan street,walajapet',
+            'postalcode':'632513',
+        }
+        localStorage.setItem('person details',JSON.stringify(x));
+        var a=document.getElementById('1');
+        var d=document.getElementById('2');
+        var g=document.getElementById('3');
+        var j=document.getElementById('4');
+        var m=document.getElementById('5');
+        var p=document.getElementById('6');
+        var s=document.getElementById('7');
+        var v=document.getElementById('8');
+        var y=document.getElementById('9');
+        var c=document.getElementById('10');
+
+        var c=JSON.parse(localStorage.getItem('person details'));
+
+        a.innerHTML=c.name
+        d.innerHTML=c.age
+        g.innerHTML=c.bloodgroup 
+        j.innerHTML=c.education 
+        m.innerHTML=c.emailaddress 
+        p.innerHTML=c.mobileno 
+        s.innerHTML=c.address
+        v.innerHTML=c.religion
+        y.innerHTML=c.nationality
+        c.innerHTML=c.postalcode 
+    </script>
+    </body>
+
+</html>

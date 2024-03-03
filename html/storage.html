@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web storage</title>
+    </head>
+    <body>
+        <p id="2"></p>
+        <p id="3"></p>
+        <p id="4"></p>
+        <script>
+            var a = document.getElementById("2");
+            localStorage.setItem("sanjay","IT STUDENT");
+            a.innerHTML =localStorage.getItem("sanjay");   
+            var b =document.getElementById("3");
+            localStorage.setItem("avinash","CSE STUDENT");
+            b.innerHTML =localStorage.getItem("avinash");
+            var c =document.getElementById("4");
+            localStorage.setItem("harish","EEE STUDENT");
+            c.innerHTML =localStorage.getItem("harish");
+        </script>
+    </body>
+</html>

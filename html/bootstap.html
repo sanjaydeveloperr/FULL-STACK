@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../image/AIST LOGO.png" style="height: 50
+                    px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/053_sd_10302020jg_12239-d13d7028fdee83a69df1358cf8d9cdc5.jpg" class="d-block w-100" alt="../image/cannon bolt.png"
+                        height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/106463856.webp" class="d-block w-100" alt="../image/heat blast.jpg"
+                        height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/136_sd_11152016dg_1145-38b885db6778c98e98cf0247115de408-5da9bbdc-1bef-4f63-b7f6-85dc541119ee.webp" class="d-block w-100" alt="../image/diamondhead.jpg"
+                        height="600px">
+                </div>
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <container>
+            <div
+                style="margin-left: 5%; margin-right:5%; display:flex; justify-content:space-between; margin-top:1%; margin-bottom:1%;">
+                <div class="card" style="width: 18rem;">
+                    <img src="../image/humungasaur.jpg" class="card-img-top" alt="../image/humungasaur.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">humungasaur</h5>
+                        <p class="card-text">Humungousaur is a somewhat humanoid dinosaur standing about twelve feet
+                            tall.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../image/waybig.png" class="card-img-top" alt="../image/waybig.png">
+                    <div class="card-body">
+                        <h5 class="card-title">waybig</h5>
+                        <p class="card-text">Way Big is a white colossal humanoid creature with a large frill on his
+                            head</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../image/stinkfly.jpg" class="card-img-top" alt="../image/stinkfly.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Stinkfly</h5>
+                        <p class="card-text">Stinkfly has an insectoid body and four crab-like legs and two arms with
+                            three-clawed hands.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </container>
+
+    </main>
+    <footer>
+        <div style="text-align:center; color:white; background-color:black">
+            <h1>AVINASH</h1>
+            Ph.no:6547893214 & Email:asdf@gmail.com
+            <p>&copy;@2024</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
