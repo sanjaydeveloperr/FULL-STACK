@@ -1,0 +1,105 @@
+What is HTML?
+HTML is the standard markup language for creating Web pages. 
+Why we use doctype?
+ The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every HTML or XHTML document
+what is meta in html?
+meta tags are HTML tags used to provide additional information about a page to search engines and other clients
+Why we use view-port?
+The viewport is the area of a web page that's visible to the user. The viewport is fundamental to web development, since its dimensions are what control how page elements appear.
+How to achieve responsive using meta?
+ <meta name="viewport" content="width=device-width">
+How to use CSS and JS file in HTML?
+In the <head> section of your HTML document, include a <script> tag to link to the JavaScript file: <script src="script. js"></script> Inline JavaScript (within HTML file): Alternatively, you can include CSS and JavaScript directly in your HTML file using <script> tags within the <head> or <body> sections
+Why use title tag?
+The title tag is an HTML code tag that allows you to give a web page a title.
+How to show page title?
+The <title> tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab. The <title> tag is required in HTML documents!
+What is tittle tag?
+The title tag is an HTML code tag that allows you to give a web page a title.
+Difference  between tag and element?
+HTML Tags are the starting and ending parts of an HTML element. They begin with < symbol and end with > symbol. Whatever is written inside < and > are called tags
+The HTML element consists of both the opening and closing tags as well as what’s inside those tags. It normally consists of some structure that’s used to define the respective tags.
+Attributes?
+HTML Attributes is used to define the character of an HTML element. It always placed in the opening tag of an element. It generally provides additional styling (attribute) to the element.
+HTML 5 features?
+1.Semantic Elements 2.Audio and Video Support 3.Canvas Elements 4.Geolocation API 5.Responsive Images
+What is block level and inline element?
+A block-level element always starts on a new line and takes up the full width available. An inline element does not start on a new line and it only takes up as much width as necessary.
+Why  we use block level and inline element?
+Every HTML element has a default block-level or inline behavior. Paragraphs are block-level elements, which means that they block off a whole line for themselves, and images are inline elements, which means they will automatically be placed next to one another on the same line.
+Tell some HTML5 tags?
+<audio> <br> <button> <col> <del>
+semantic what does it mean in html?
+Semantic means "relating to meaning". Writing semantic HTML means using HTML elements to structure your content based on each element's meaning, not its appearance
+How achieve list?
+Use the <ul> tag together with the <li> tag to create unordered lists. Tip: Use CSS to style lists. Tip: For ordered lists, use the <ol> tag.
+Types of list?
+unordered lists, ordered lists, and definition lists
+Div tag what, why, how?
+The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. The <div> tag is easily styled by using the class or id attribute.
+image tag what, why, how?
+The <img> tag creates a holding space for the referenced image. The <img> tag has two required attributes: src - Specifies the path to the image. alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed.
+Formatting tag what, why, how?
+Formatting tags that span across a section of text (such as bold, italic or underline) are always in an opening/closing pair: the opening tag is used to delineate the start of the text section, while the closing tag signals the end of the section. This text is in bold
+Differnce between Bold and Strong, i and em?
+The <b> tag is written as <b>/b>, with the bold text inserted between the beginning and ending tags.
+The <i> tag in HTML is used to display the content in italic style. This tag is generally used to display the technical term, phrase, the important word in a different language.
+<em> tag: It is also one of the elements of HTML used in formatting texts. It is used to define emphasized text or statements. 
+Input types?
+<input type="button"> <input type="checkbox"> <input type="color"> <input type="date"> <input type="datetime-local">
+Web storage what, why, how?
+Web storage is an HTML5 feature that allows you to store data in key value pairs in the browser. This enables applications to store data in the client side so you can access it or manipulate it later. All data stored in web storage stays in the browser and is not transferred anywhere else
+canvas what why how in html?
+The HTML <canvas> element is used to draw graphics, on the fly, via scripting (usually JavaScript). The <canvas> element is only a container for graphics. You must use a script to actually draw the graphics.
+SVG what, why, how?
+SVG or Scalable Vector Graphics is a web standard for defining vector-based graphics in web pages. Based on XML the SVG standard provides markup to describe paths, shapes, and text within a viewport.
+
+CSS:
+CSS what, why, version, types?
+The three types of CSS are external, internal, and inline.,CSS1, CSS2 and CSS3,Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML
+Selectors what, why, how, types?
+We can divide CSS selectors into five categories: Simple selectors (select elements based on name, id, class) Combinator selectors (select elements based on a specific relationship between them) Pseudo-class selectors (select elements based on a certain state)
+Difference between pseudo element and class, types, why, where?
+Pseudo-classes target states like ': hover' or ': active', while pseudo-elements like ' ::before ' or:: after' style specific parts of an element. They enhance CSS styling by providing more granular control over elements' appearance based on user interactions or document structure.
+Box model what, why, how, where?
+The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages
+Difference between display and visibility?
+While "display: none" completely removes the element from the webpage layout, "visibility: hidden" only hides the element but keeps its position intact.
+positions what why how types and difference in css?
+A positioned element is an element whose computed position value is either relative , absolute , fixed , or sticky .
+Z-index what, why, how, where?
+The z-index property specifies the stack order of an element?
+An element with greater stack order is always in front of an element with a lower stack order.
+!important what, why, how in css?
+In CSS, important means that only the ! important property value is to be applied to an element and all other declarations on the element are to be ignored.
+Units what, why, how and difference?
+ CSS units are measurements used to define various properties such as width, height, font size, margins, paddings, and more. There are two main categories of CSS units: absolute units and relative units
+Box sizing what, why, how?
+CSS box-sizing enables you to define how you want the height and width of an element to be calculated
+Flex what, why, how, properties?
+This is a shorthand for all properties that define the flexibility of an item: flex-grow , flex-shrink and flex-basis . It sets the default element size and tells us how an element can grow and shrink.
+Media query what, why, how, types?
+width and height of the viewport,orientation of the viewport (landscape or portrait),resolution
+*all	- Used for all media type devices
+*print	- Used for print preview mode
+*screen	- Used for computer screens, tablets, smart-phones etc.
+Center a div how, types?
+ive the div a CSS class like center.
+In your CSS code, type your . center CSS selector and open the style brackets.
+Set the position of your div to absolute so that it's taken out of the normal document flow.
+Set the left and top properties both to 50%. ...
+Set the transform property to translate(-50%, -50%).
+transition-delay,transition-duration,transition-property
+
+Bootstrap:
+Bootstrap what, why, version,difference?
+It is an open-source framework from late 2011 that is used for designing responsive websites with a mobile-first approach faster and easier.
+why :
+Faster and Easier
+Mobile First style
+It is free! Available on www.getbootstrap.com
+Browser support
+versions:2,3,4,5
+container and container-fluid difference?
+The .container class provides a responsive fixed width container. The .container-fluid class provides a full width container, spanning the entire width of the viewport.
+Responsive Design
